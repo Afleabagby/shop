@@ -11,9 +11,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // 根據 icon 的種類引用
-import { faShoppingCart,faShoppingBag } from '@fortawesome/free-solid-svg-icons'
-import {faTrashAlt} from '@fortawesome/free-regular-svg-icons'
-library.add(faShoppingCart,faShoppingBag, faTrashAlt);
+import { faShoppingCart, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
+import { faTrashAlt } from '@fortawesome/free-regular-svg-icons'
+library.add(faShoppingCart, faShoppingBag, faTrashAlt);
 
 // 註冊元件
 Vue.component('font-awesome-icon', FontAwesomeIcon)
